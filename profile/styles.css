@@ -1,0 +1,29 @@
+p {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: 13pt;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    background-color: blue;
+    color: red;
+}
+
+a:hover
+{
+    background-color: red;
+    color: blue
+}
+
+.url {
+    color: orange;
+    background-color: black;
+}
