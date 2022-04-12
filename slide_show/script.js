@@ -15,10 +15,10 @@ nextButton.onclick = () => {
 }
 
 prevButton.onclick = () => {
-    if (image == 5) {
-        image = 1
+    if (image == 1) {
+        image = 5
     } else {
-        image++
+        image--
     }
     display()
 }
